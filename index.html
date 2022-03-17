@@ -12,12 +12,15 @@
 
 <body>
     <div class="contenedor">
-        <header>
-            <h1>Hoja de Vida</h1>
-        </header>
 
         <main>
             <section class="principal">
+                <header>
+                    <h1>Hoja de Vida</h1>
+                </header>
+                <div class="foto-perfil">
+                    <img src="img/Perfil.png" alt="Foto de Luis Alfredo Parra" width="230" height="230">
+                </div>
                 <div class="nombre">
                     <h2>Luis Alfredo <span>Parra</span></h2>
                 </div>
@@ -107,6 +110,16 @@
                     </table>
                 </div>
                 <!--.experiencia-->
+
+                <div class="mensaje">
+                    <h3>Deja tu mensaje</h3>
+                    <form>
+                        <input type="email" placeholder="Email" for="email">
+                        <textarea name="mensaje" cols="50" rows="5" placeholder="Gracias por comentar"></textarea>
+                        <button>Contactar</button>
+                    </form>
+                </div>
+                <!--.mensaje-->
             </section>
             <!--.principal-->
 
@@ -170,24 +183,28 @@
 
                         <tbody>
                             <tr>
+                                <td>HTML</td>
+                                <td><meter value=".6"></meter></td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td><meter value=".6"></meter></td>
+                            </tr>
+                            <tr>
                                 <td>JavaScript</td>
-                                <td>Avanzado</td>
-                            </tr>
-                            <tr>
-                                <td>AngularJs</td>
-                                <td>Avanzado</td>
-                            </tr>
-                            <tr>
-                                <td>Django</td>
-                                <td>Intermedio</td>
+                                <td><meter value=".5"></meter></td>
                             </tr>
                             <tr>
                                 <td>React</td>
-                                <td>Avanzado</td>
+                                <td><meter value="0"></meter></td>
                             </tr>
                             <tr>
                                 <td>Java</td>
-                                <td>Avanzado</td>
+                                <td><meter value=".5"></meter></td>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td><meter value=".4"></meter></td>
                             </tr>
                         </tbody>
                     </table>
@@ -231,15 +248,15 @@
                     </table>
                 </div>
                 <!--.intereses-->
-
-                <div class="contacto">
-                    <h2>Contacto</h2>
+                <div class="mensaje">
+                    <h3>Deja tu mensaje</h3>
                     <form>
                         <input type="email" placeholder="Email" for="email">
-                        <textarea name="mensaje" cols="50" rows="5" placeholder="Deja tu mensaje"></textarea>
+                        <textarea name="mensaje" rows="5" placeholder="Gracias por comentar"></textarea>
                         <button>Contactar</button>
                     </form>
                 </div>
+                <!--.mensaje-->
             </section>
             <!--.lateral-->
         </main>
