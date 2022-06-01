@@ -62,31 +62,6 @@ main {
 ul {
     list-style: none;
 }
-div.message {
-    width: 80%;
-    margin-top: 20px;
-}
-div.message form {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-div.message input {
-    padding: 5px;
-}
-div.message textarea {
-    resize: none;
-    width: inherit;
-}
-div.message button {
-    display: block;
-    text-align: center;
-    padding: 2px 10px;
-}
 
 /** Main Section **/
 
@@ -165,17 +140,8 @@ div.experience ul {
     list-style: disc;
     margin: 10px 20px;
 }
-section.main div.message {
-    margin-top: 0;
-    text-align: center;
-}
-section.main div.message h3 {
-    text-align: center;
-}
-@media screen and (max-width: 719px) {
-    section.main div.message {
-        display: none;
-    }
+div.experience ul li {
+    margin: 5px 0;
 }
 
 /** Side Section **/
@@ -183,7 +149,7 @@ section.main div.message h3 {
 section.side {
     background-color: #afdef8;
     width: 100%;
-    padding: 10px 0 10%;
+    padding: 10px 0 30px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -269,9 +235,4 @@ div.interests tr.separation {
 }
 div.skills table ::-webkit-meter-optimum-value {
     background: #0a0947;
-}
-@media screen and (min-width:720px) {
-    section.side div.message {
-        display: none;
-    }
 }
